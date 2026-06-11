@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>РџРѕРґР°СЂРєРё РґР»СЏ Р Р°РґС‹ рџЋЂ</title>
+<title>Подарки для Рады 🎀</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
@@ -320,37 +320,37 @@
 <div class="page-wrap">
 
   <div class="header">
-    <div class="header-title">РџРѕРґР°СЂРєРё РґР»СЏ Р Р°РґС‹ рџЋЂ</div>
-    <div class="header-subtitle">1 РіРѕРґРёРє</div>
-    <div class="stars-row">вњ¦ вњ¦ вњ¦</div>
+    <div class="header-title">Подарки для Рады 🎀</div>
+    <div class="header-subtitle">1 годик</div>
+    <div class="stars-row">✦ ✦ ✦</div>
   </div>
 
   <div class="invite-card">
-    <div class="invite-label">РџСЂРёРіР»Р°С€РµРЅРёРµ</div>
-    <textarea class="invite-textarea" rows="5">Р”РѕСЂРѕРіРёРµ РґСЂСѓР·СЊСЏ Рё Р±Р»РёР·РєРёРµ! рџЊё
+    <div class="invite-label">Приглашение</div>
+    <textarea class="invite-textarea" rows="5">Дорогие друзья и близкие! 🌸
 
-РќР°С€Р° РјР°Р»С‹С€РєР° Р Р°РґР° РѕС‚РјРµС‡Р°РµС‚ СЃРІРѕР№ РїРµСЂРІС‹Р№ РґРµРЅСЊ СЂРѕР¶РґРµРЅРёСЏ!
-РњС‹ Р±СѓРґРµРј СЂР°РґС‹ РІРёРґРµС‚СЊ РІР°СЃ РЅР° РЅР°С€РµРј РїСЂР°Р·РґРЅРёРєРµ.
+Наша малышка Рада отмечает свой первый день рождения!
+Мы будем рады видеть вас на нашем празднике.
 
-Р•СЃР»Рё РІС‹ С…РѕС‚РёС‚Рµ СЃРґРµР»Р°С‚СЊ Р Р°РґРµ РїРѕРґР°СЂРѕРє вЂ” РІС‹Р±РµСЂРёС‚Рµ С‡С‚Рѕ-С‚Рѕ РёР· СЃРїРёСЃРєР° РЅРёР¶Рµ Рё РѕС‚РјРµС‚СЊС‚Рµ РіР°Р»РѕС‡РєРѕР№, С‡С‚РѕР±С‹ РґСЂСѓРіРёРµ Р·РЅР°Р»Рё Рѕ РІР°С€РµРј РІС‹Р±РѕСЂРµ рџЋЃ</textarea>
+Если вы хотите сделать Раде подарок — выберите что-то из списка ниже и отметьте галочкой, чтобы другие знали о вашем выборе 🎁</textarea>
   </div>
 
   <div class="divider"></div>
 
   <div class="admin-card" id="adminPanel">
-    <div class="admin-title"><i class="ti ti-plus"></i> Р”РѕР±Р°РІРёС‚СЊ РїРѕРґР°СЂРѕРє</div>
+    <div class="admin-title"><i class="ti ti-plus"></i> Добавить подарок</div>
     <div class="add-form">
-      <input class="add-input" id="inputArticle" placeholder="РђСЂС‚РёРєСѓР» WB (С†РёС„СЂС‹) РёР»Рё СЃСЃС‹Р»РєР°" />
-      <input class="add-input" id="inputName" placeholder="РќР°Р·РІР°РЅРёРµ РїРѕРґР°СЂРєР°" style="flex:1.5" />
-      <button class="btn-add" id="btnAdd" onclick="addGift()">Р”РѕР±Р°РІРёС‚СЊ</button>
+      <input class="add-input" id="inputArticle" placeholder="Артикул WB (цифры) или ссылка" />
+      <input class="add-input" id="inputName" placeholder="Название подарка" style="flex:1.5" />
+      <button class="btn-add" id="btnAdd" onclick="addGift()">Добавить</button>
     </div>
   </div>
 
-  <div class="gifts-title"><i class="ti ti-gift"></i> РЎРїРёСЃРѕРє РїРѕРґР°СЂРєРѕРІ</div>
+  <div class="gifts-title"><i class="ti ti-gift"></i> Список подарков</div>
   <div class="gifts-list" id="giftsList"></div>
-  <div class="empty-state" id="emptyState" style="display:none">РџРѕРєР° РЅРµС‚ РЅРё РѕРґРЅРѕРіРѕ РїРѕРґР°СЂРєР° вЂ” РґРѕР±Р°РІСЊС‚Рµ РїРµСЂРІС‹Р№ рџЋ€</div>
+  <div class="empty-state" id="emptyState" style="display:none">Пока нет ни одного подарка — добавьте первый 🎈</div>
 
-  <div class="status-bar" id="statusBar">Р—Р°РіСЂСѓР·РєР°...</div>
+  <div class="status-bar" id="statusBar">Загрузка...</div>
 
 </div>
 
@@ -381,16 +381,16 @@ async function loadGifts() {
     const data = await r.json();
     gifts = (data.gifts) || (data.record && data.record.gifts) || [];
     renderGifts();
-    setStatus('РћР±РЅРѕРІР»РµРЅРѕ С‚РѕР»СЊРєРѕ С‡С‚Рѕ', 'ok');
+    setStatus('Обновлено только что', 'ok');
   } catch(e) {
-    setStatus('РћС€РёР±РєР° Р·Р°РіСЂСѓР·РєРё: ' + e.message, 'error');
+    setStatus('Ошибка загрузки: ' + e.message, 'error');
   }
 }
 
 async function saveGifts() {
   if (saving) return;
   saving = true;
-  setStatus('РЎРѕС…СЂР°РЅРµРЅРёРµ...');
+  setStatus('Сохранение...');
   try {
     const r = await fetch(BASE, {
       method: 'PUT',
@@ -402,9 +402,9 @@ async function saveGifts() {
       body: JSON.stringify({ gifts })
     });
     if (!r.ok) throw new Error('HTTP ' + r.status);
-    setStatus('РЎРѕС…СЂР°РЅРµРЅРѕ вњ“', 'ok');
+    setStatus('Сохранено ✓', 'ok');
   } catch(e) {
-    setStatus('РћС€РёР±РєР° СЃРѕС…СЂР°РЅРµРЅРёСЏ: ' + e.message, 'error');
+    setStatus('Ошибка сохранения: ' + e.message, 'error');
   }
   saving = false;
 }
@@ -438,17 +438,17 @@ function renderGifts() {
       <div class="gift-info">
         <div class="gift-name">${esc(g.name)}</div>
         <div class="gift-meta-row">
-          ${artClean ? `<span class="gift-art">РђСЂС‚: ${artClean}</span>` : ''}
-          ${wbUrl ? `<a class="gift-link" href="${wbUrl}" target="_blank"><i class="ti ti-external-link"></i> РћС‚РєСЂС‹С‚СЊ РЅР° WB</a>` : ''}
-          ${g.taken ? `<span class="taken-badge">Р—Р°РЅСЏС‚Рѕ</span>` : ''}
+          ${artClean ? `<span class="gift-art">Арт: ${artClean}</span>` : ''}
+          ${wbUrl ? `<a class="gift-link" href="${wbUrl}" target="_blank"><i class="ti ti-external-link"></i> Открыть на WB</a>` : ''}
+          ${g.taken ? `<span class="taken-badge">Занято</span>` : ''}
         </div>
       </div>
       <div class="gift-actions">
         <label class="check-label">
           <input type="checkbox" ${g.taken ? 'checked' : ''} onchange="toggleTaken(${i}, this.checked)" />
-          <span>${g.taken ? 'Р—Р°РЅСЏС‚Рѕ' : 'Р’С‹Р±СЂР°С‚СЊ'}</span>
+          <span>${g.taken ? 'Занято' : 'Выбрать'}</span>
         </label>
-        <button class="btn-del" onclick="deleteGift(${i})" title="РЈРґР°Р»РёС‚СЊ"><i class="ti ti-trash"></i></button>
+        <button class="btn-del" onclick="deleteGift(${i})" title="Удалить"><i class="ti ti-trash"></i></button>
       </div>
     </div>`;
   }).join('');
@@ -458,7 +458,7 @@ async function addGift() {
   const art = document.getElementById('inputArticle').value.trim();
   const name = document.getElementById('inputName').value.trim();
   if (!art && !name) return;
-  gifts.push({ article: art, name: name || 'РџРѕРґР°СЂРѕРє', taken: false });
+  gifts.push({ article: art, name: name || 'Подарок', taken: false });
   renderGifts();
   document.getElementById('inputArticle').value = '';
   document.getElementById('inputName').value = '';
